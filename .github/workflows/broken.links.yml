@@ -17,4 +17,4 @@ jobs:
       - name: Attendre le deploiment
         run: sleep 70
       - run: npm install
-      - run: npx blc https://github.com/igor-jean/github_pages
+      - run: npx blc https://github.com/igor-jean/github_pages -v
