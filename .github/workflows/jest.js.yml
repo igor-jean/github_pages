@@ -3,7 +3,7 @@ name: Run Jest Tests
 on: [push, pull_request]
 
 jobs:
-  tests:
+  jest:
     runs-on: ubuntu-latest
     strategy:
       matrix:

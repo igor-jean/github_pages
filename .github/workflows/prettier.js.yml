@@ -3,7 +3,7 @@ name: Check Format With Prettier
 on: [push, pull_request]
 
 jobs:
-  tests:
+  prettier:
     runs-on: ubuntu-latest
     strategy:
       matrix:
